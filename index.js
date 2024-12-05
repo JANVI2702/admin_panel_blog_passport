@@ -5,7 +5,7 @@ const path = require("path");
 const db = require("./config/database");
 
 const session = require("express-session");
-const LocalStrategy = require("./middlewares/passportLocal");
+const LocalStrategy = require("./middlewares/passportlocal");
 const passport = require("passport");
 
 const port = 8081;
